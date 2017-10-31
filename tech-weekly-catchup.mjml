@@ -1,0 +1,101 @@
+<mjml>
+	<mj-head>
+    	<mj-preview>Technology, Project and Geek related things from the Tech team</mj-preview>
+    </mj-head>
+	<mj-body>
+		<mj-container background-color="#E1E8ED">
+			<!-- Header -->
+			<mj-section padding-bottom="0" background-color="white">
+				<mj-column width="100%">
+					<mj-image src="https://user-images.githubusercontent.com/4479918/27215474-ad378926-5271-11e7-8570-7cb01308dc8d.png" width="50px" />
+					<mj-divider padding-top="20" padding-bottom="0" padding-left="0" padding-right="0" border-width="1px" border-color="#f8f8f8" />
+				</mj-column>
+			</mj-section>
+			<mj-section padding-bottom="0" background-color="#fcfcfc">
+				<mj-column width="100%">
+					<mj-text align="center" font-size="21" color="#242626" font-family="Helvetica Neue" font-weight="100">
+						Last week
+					</mj-text>
+					<mj-divider padding-top="20" padding-bottom="0" padding-left="0" padding-right="0" border-width="1px" border-color="#f8f8f8" />
+				</mj-column>
+			</mj-section>
+			<!-- Article -->
+			<mj-section background-color="white">
+				<mj-column width="100">
+					<mj-image src="https://user-images.githubusercontent.com/4479918/32168476-75d2bd56-bd75-11e7-9e50-cf2d021dbf6d.png" />
+				</mj-column>
+				<mj-column width="380">
+					<mj-text align="left" font-size="24" color="#242626" font-weight="200">
+						Example feature release
+					</mj-text>
+					<mj-text align="left" color="#242626" font-weight="200" font-size="14">
+						Here is an example of a write up of a new feature. You can host your images somewhere
+						but the easiest is at github itself.
+						<br><br>
+						These sections can get duplicated. They are all mobile friendly
+					</mj-text>
+				</mj-column>
+			</mj-section>
+			<!-- Line between article sections -->
+			<mj-section padding="0" background-color="#fcfcfc">
+				<mj-column width="100%">
+					<mj-divider padding-top="0" padding-bottom="0" padding-left="0" padding-right="0" border-width="1px" border-color="#f8f8f8" />
+				</mj-column>
+			</mj-section>
+			<!-- /Article -->
+			<mj-section background-color="white">
+				<mj-column width="100">
+					<mj-image src="https://user-images.githubusercontent.com/4479918/27105234-1d97fa1e-508f-11e7-9062-fb6d61241803.png" />
+				</mj-column>
+				<mj-column width="380">
+					<mj-text align="left" font-size="24" color="#242626" font-weight="200">
+						Bug fixes and Improvements
+					</mj-text>
+					<mj-text align="left" color="#242626" font-weight="200" font-size="14">
+						Some small fixes and niggles we shipped:
+					</mj-text>
+					<mj-list font-size="13px" color="#242626">
+						<li>Fixed an issue related to something</li>
+						<li>Fixed another issue</li>
+						<li>Added something in the line of an enhancement</li>
+						<li>...</li>
+					</mj-list>
+					<mj-button href="link/to/release/we/use/jira">View Release</mj-button>
+				</mj-column>
+			</mj-section>
+			<mj-section padding="0" background-color="#fcfcfc">
+				<mj-column width="100%">
+					<mj-divider padding-top="0" padding-bottom="0" padding-left="0" padding-right="0" border-width="1px" border-color="#f8f8f8" />
+				</mj-column>
+			</mj-section>
+			<mj-section background-color="white">
+				<mj-column width="100">
+					<mj-image src="https://user-images.githubusercontent.com/4479918/27215473-ad36660e-5271-11e7-9f88-345b262030b1.png" />
+				</mj-column>
+				<mj-column width="380">
+					<mj-text align="left" font-size="24" color="#242626" font-weight="200">
+						In Flight
+					</mj-text>
+					<mj-text align="left" color="#242626" font-weight="200" font-size="14">
+						This is the work that is currently in progress.
+					</mj-text>
+					<mj-list font-size="12" color="#242626">
+						<li>Something in progress</li>
+						<li>Another thing that is in flight</li>
+						<li>We are busy with this thing</li>
+						<li>...</li>
+					</mj-list>
+					<mj-button href="/link/to/kanban/board">View In Flight</mj-button>
+				</mj-column>
+			</mj-section>
+			<mj-section padding-bottom="0" background-color="#fcfcfc">
+				<mj-column width="100%">
+					<mj-text align="center" font-size="18" color="grey" font-family="Helvetica Neue" font-weight="100" padding-bottom="5px">
+						“Cool Quote” - <small>Cool Person</small>
+					</mj-text>
+					<mj-divider padding-top="20" padding-bottom="0" padding-left="0" padding-right="0" border-width="1px" border-color="#f8f8f8" />
+				</mj-column>
+			</mj-section>
+		</mj-container>
+	</mj-body>
+</mjml>

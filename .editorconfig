@@ -1,0 +1,22 @@
+# editorconfig.org
+root = true
+
+[*]
+ end_of_line = lf
+ insert_final_newline = true
+
+[*.{js,php,css,sass,scss,html,blade.php,mjml}]
+ charset = utf-8
+ indent_style = tab
+ indent_size = 4
+ tab_width = 4
+ trim_trailing_whitespace = true
+
+[{node_modules,vendor,bower_components}/**]
+ indent_style = ignore
+ indent_size = ignore
+ end_of_line = ignore
+ charset = ignore
+ trim_trailing_whitespace = ignore
+ insert_final_newline = ignore
+ spaces_around_operators = ignore
