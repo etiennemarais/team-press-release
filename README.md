@@ -36,3 +36,7 @@ yarn send "Some Subject here"
 # Render the template only as an html file
 yarn render
 ```
+
+### Icons
+
+<a href="https://icons8.com">Icon pack by Icons8</a> You should check them out, it's a great resource.
